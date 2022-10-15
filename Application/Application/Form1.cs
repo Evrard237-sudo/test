@@ -16,14 +16,5 @@ namespace Application
         {
 
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (tbPassword.Text == "admin" && tbUsername.Text == "admin"){
-                UserAccount ua = new UserAccount();
-                ua.Show();
-            }
-
-        }
     }
 }
